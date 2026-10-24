@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      '/api': 'https://medfinder-734o.onrender.com',
+      '/api': 'http://localhost:5000',
     },
   },
 })

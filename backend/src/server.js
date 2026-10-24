@@ -15,7 +15,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://medfinder-734o.onrender.com",
+    origin: process.env.CLIENT_URL || "http://localhost:5173",
   }),
 );
 app.use(express.json());
